@@ -4,6 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import tutor1 from "@/../public/imagens/tutor1.png";
 import tutor2 from "@/../public/imagens/tutor2.png";
+import tutor3 from "@/../public/imagens/tutor3.png";
 import Image from "next/image";
 
 const testimonials = [
@@ -25,7 +26,7 @@ const testimonials = [
     content: "Meus gatos nunca gostaram de sair de casa, mas o atendimento nesse petshop fez toda a diferença. A equipe é muito paciente e cuidadosa, e o serviço de banho especializado para felinos foi maravilhoso! Agora sei onde confiar o cuidado deles.",
     author: "Camila fernandes",
     role: "Tutora da Mel e do Max",
-    image: tutor2,
+    image: tutor3,
   },
 ];
 
