@@ -41,8 +41,7 @@ export function Footer() {
             ))}
           </div>
         </div>
-
-        <footer className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-5 mt-5 flex justify-around">
+        <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-5 mt-5">
             <div>
               <h3 className="text-2xl font-semibold mb-2">Petshop</h3>
               <p className="mb-4">Cuidando do seu melhor amigo com amor e dedicação.</p>
@@ -79,7 +78,7 @@ export function Footer() {
         </footer>
         <div className="border-t border-white/20 pt-8 flex justify-center">
             <p>
-              © Felipe Destro - 2025. Todos os direitos reservados.
+              © 2025 Felipe Destro. Todos os direitos reservados.
             </p>
         </div>
       </div>
