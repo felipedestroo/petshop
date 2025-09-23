@@ -21,7 +21,11 @@ export function About() {
               />
             </div>
 
-            <div className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg border-4 overflow-hidden border-white">
+            <div 
+              className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg border-4 overflow-hidden border-white" 
+              data-aos="fade-up-left"
+              data-aos-duration="1000"
+            >
               <Image 
                 src={about2Img}
                 alt="Foto do gato 2"
