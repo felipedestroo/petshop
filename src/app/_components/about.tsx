@@ -6,7 +6,7 @@ import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
 
 export function About() {
   return(
-    <section className="bg-[#FDF6ec] py-16">
+    <section className="bg-[#FDFFFC] py-16">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
@@ -47,15 +47,15 @@ export function About() {
 
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
-                <Check className="text-red-500"/>
+                <Check className="text-[#37392E]"/>
                 Aberto desde 2006
               </li>
               <li className="flex items-center gap-2">
-                <Check className="text-red-500"/>
+                <Check className="text-[#37392E]"/>
                 Equipe com mais de 10 veterinários
               </li>
               <li className="flex items-center gap-2">
-                <Check className="text-red-500"/>
+                <Check className="text-[#37392E]"/>
                 Qualidade é nossa prioridade
               </li>
             </ul>
@@ -63,7 +63,7 @@ export function About() {
             <div className="flex gap-2">
               <a 
                 href="#"
-                className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"  
+                className="bg-[#1E293B] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"  
               >
                 <WhatsappLogoIcon className="w-5 h-5 text-white" />
                 Contato via Whatsapp

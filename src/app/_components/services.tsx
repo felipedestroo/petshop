@@ -60,7 +60,7 @@ export function Services() {
   
   return(
     <section 
-      className="bg-white py-16" 
+      className="bg-[#FDFFFC] py-16" 
       data-aos="zoom-in"
       data-aos-duration="1500"
     >

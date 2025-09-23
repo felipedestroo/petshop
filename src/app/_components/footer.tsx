@@ -18,13 +18,13 @@ const brands = [
 
 export function Footer() {
   return (
-    <section className="bg-[#E84c3d] pt-16 pb-8 text-white">
+    <section className="bg-[#235789] pt-16 pb-8 text-white">
       <div className="container mx-auto px-4">
         <div className="border-b border-white/20 pb-8">
           <h4 className="text-3xl font-semibold mb-8 text-center">Nossos parceiros</h4>
           <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
             {brands.map((item, index) => (
-              <div key={index} className="bg-white p-4 rounded-lg flex items-center justify-center" data-aos="flip-up">
+              <div key={index} className="bg-white p-4 rounded-lg flex items-center justify-center" data-aos="flip-up" data-aos-duration="1000">
                 <Image 
                   src={item.logo}
                   alt={item.name}

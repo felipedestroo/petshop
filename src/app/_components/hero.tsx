@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Hero() {
   return(
-    <section className="bg-[#E84C3D] text-white relative overflow-hidden">
+    <section className="bg-[#235789] text-white relative overflow-hidden">
 
       <div>
         <Image 
@@ -40,7 +40,7 @@ export function Hero() {
               </a>
             </div>
             <div className="mt-8">
-              <p className="text-sm mb-4" data-aos="fade-up">
+              <p className="text-sm mb-4 font-semibold" data-aos="fade-up">
                 <b className="bg-black text-white px-2 py-1 rounded-md">5%</b> de desconto na primeira compra
               </p>
               <div className="flex mt-4">
